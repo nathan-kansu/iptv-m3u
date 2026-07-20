@@ -1,3 +1,4 @@
 duckdb
 numpy
 pandas
+ffmpeg-python
