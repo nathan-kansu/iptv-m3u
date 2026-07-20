@@ -55,12 +55,12 @@ df = duckdb.sql(
         )
       AND (
         streams.quality LIKE '%1080%'
-        OR streams.quality LIKE '%720%'
         )
     ORDER BY channel_country, channel_categories ASC
     """
 ).df()
 
+# OR streams.quality LIKE '%720%'
 df = df.drop_duplicates("stream_url")
 
 write_m3u(df)
