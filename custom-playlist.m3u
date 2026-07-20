@@ -1,17 +1,17 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.uk" tvg-name="Nick Jr." group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr.
-http://206.212.244.63/3150/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.uk" tvg-name="Nicktoons" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png",Nicktoons
-http://206.212.244.63/3151/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon
-http://193.239.186.231/NICK/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.uk" tvg-name="Nick Jr." group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr.
-http://40.160.24.55/NICK_JR/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon
+#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon 🇬🇧" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon 🇬🇧
 http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
-#EXTINF:-1 tvg-id="Totalmusic.uk" tvg-name="Totalmusic" group-title="['music']" tvg-logo="https://static.elektamedia.com/ch/tmc_main.png",Totalmusic
+#EXTINF:-1 tvg-id="NickJr.uk" tvg-name="Nick Jr. 🇬🇧" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr. 🇬🇧
+http://40.160.24.55/NICK_JR/index.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.uk" tvg-name="Nicktoons 🇬🇧" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png",Nicktoons 🇬🇧
+http://206.212.244.63/3151/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon 🇬🇧" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon 🇬🇧
+http://193.239.186.231/NICK/index.m3u8
+#EXTINF:-1 tvg-id="NickJr.uk" tvg-name="Nick Jr. 🇬🇧" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr. 🇬🇧
+http://206.212.244.63/3150/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon 🇬🇧" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon 🇬🇧
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="Totalmusic.uk" tvg-name="Totalmusic 🇬🇧" group-title="['music']" tvg-logo="https://static.elektamedia.com/ch/tmc_main.png",Totalmusic 🇬🇧
 https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="CNBCUK.uk" tvg-name="CNBC UK" group-title="['news' 'business']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",CNBC UK
+#EXTINF:-1 tvg-id="CNBCUK.uk" tvg-name="CNBC UK 🇬🇧" group-title="['news' 'business']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",CNBC UK 🇬🇧
 https://amg01079-nbcuuk-amg01079c2-lg-gb-2030.playouts.now.amagi.tv/playlist.m3u8
