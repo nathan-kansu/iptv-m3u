@@ -1,17 +1,103 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon 🇬🇧" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon 🇬🇧
-http://151.80.18.177:86/Nickelodeon_FR/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.uk" tvg-name="Nick Jr. 🇬🇧" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr. 🇬🇧
-http://40.160.24.55/NICK_JR/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.uk" tvg-name="Nicktoons 🇬🇧" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/d/d8/Nicktoons_UK_Logo_2014.png",Nicktoons 🇬🇧
-http://206.212.244.63/3151/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon 🇬🇧" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon 🇬🇧
-http://193.239.186.231/NICK/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.uk" tvg-name="Nick Jr. 🇬🇧" group-title="['kids']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nick_Jr._logo_2023_(outline).svg/960px-Nick_Jr._logo_2023_(outline).svg.png",Nick Jr. 🇬🇧
-http://206.212.244.63/3150/index.m3u8
-#EXTINF:-1 tvg-id="Nickelodeon.uk" tvg-name="Nickelodeon 🇬🇧" group-title="['kids']" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon 🇬🇧
-http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
-#EXTINF:-1 tvg-id="Totalmusic.uk" tvg-name="Totalmusic 🇬🇧" group-title="['music']" tvg-logo="https://static.elektamedia.com/ch/tmc_main.png",Totalmusic 🇬🇧
-https://cdn.global.elektamedia.com/live/c7eds/Totalmusic/SA_LIVE_hls_enc/master.m3u8
-#EXTINF:-1 tvg-id="CNBCUK.uk" tvg-name="CNBC UK 🇬🇧" group-title="['news' 'business']" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/CNBC_2025.svg/960px-CNBC_2025.svg.png",CNBC UK 🇬🇧
-https://amg01079-nbcuuk-amg01079c2-lg-gb-2030.playouts.now.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="BigPlanet.ru" tvg-name="Big Planet 🇷🇺" group-title="",Big Planet 🇷🇺
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/big-planet-hd.m3u8
+#EXTINF:-1 tvg-id="ProLyubov.ru" tvg-name="Pro Lyubov 🇷🇺" group-title="",Pro Lyubov 🇷🇺
+http://hls127.freeott.top:8080/ProLubovHD/video.m3u8
+#EXTINF:-1 tvg-id="Prodvizhenie.ru" tvg-name="Prodvizhenie 🇷🇺" group-title="",Prodvizhenie 🇷🇺
+https://streaming.astrakhan.ru/proastrakhanhd/index.m3u8
+#EXTINF:-1 tvg-id="Subbota.ru" tvg-name="Subbota! 🇷🇺" group-title="",Subbota! 🇷🇺
+https://bl.rutube.ru/livestream/310744c10a5809da38aa445c952976da/index.m3u8?e=2066519758&s=dmUf6BUQzDBTwtQOseAfog&scheme=https
+#EXTINF:-1 tvg-id="Zhivayapriroda.ru" tvg-name="Zhivaya Priroda 🇷🇺" group-title="",Zhivaya Priroda 🇷🇺
+http://stream.mcquack.net/83/index.m3u8
+#EXTINF:-1 tvg-id="ZvezdaPlus.ru" tvg-name="Zvezda Plus 🇷🇺" group-title="",Zvezda Plus 🇷🇺
+https://tchaikovsky.af-stream.com:991/s/xzztutfc/zvezda-plus-hd/video.m3u8
+#EXTINF:-1 tvg-id="FAN.ru" tvg-name="Fan 🇷🇺" group-title="Animation, Movies",Fan 🇷🇺
+http://31.148.48.15/Fan/index.m3u8
+#EXTINF:-1 tvg-id="alphaFunny.ru" tvg-name="Alpha Funny 🇷🇺" group-title="Comedy",Alpha Funny 🇷🇺
+https://live.15plusmg.ru/memfs/90b76c71-a86e-488a-aac4-cb66d6f88781.m3u8
+#EXTINF:-1 tvg-id="alphaMoretime.ru" tvg-name="Alpha Moretime 🇷🇺" group-title="Comedy, Movies",Alpha Moretime 🇷🇺
+https://live.15plusmg.ru/memfs/3546fc09-2eba-459d-9a1f-9a2fc39e50bd.m3u8
+#EXTINF:-1 tvg-id="alphaCinema.ru" tvg-name="Alpha Cinema 🇷🇺" group-title="Comedy, Movies, Family",Alpha Cinema 🇷🇺
+https://live.15plusmg.ru/memfs/b389173a-df4e-4171-8904-e249893e71eb.m3u8
+#EXTINF:-1 tvg-id="RussiaK.ru" tvg-name="Russia-K 🇷🇺" group-title="Culture",Russia-K 🇷🇺
+https://stream.smotrim.ru/hls2/russia_k/playlist_5.m3u8
+#EXTINF:-1 tvg-id="360.ru" tvg-name="360° 🇷🇺" group-title="General",360° 🇷🇺
+https://cdn-evacoder-tv.facecast.io/evacoder_hls_hi/CkxfR1xNUAJwTgtXTBZTAJli/index.m3u8
+#EXTINF:-1 tvg-id="360.ru" tvg-name="360° 🇷🇺" group-title="General",360° 🇷🇺
+https://live-vgtrksmotrim.cdnvideo.ru/vgtrksmotrim/smotrim-live-04-srt.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://streamer2.nexgen.bz/05-CHANNEL5/index.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://streamer2.nexgen.bz/05-CHANNEL5/index.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://streamer2.nexgen.bz/05-CHANNEL5/index.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://639bc5877c5fe.streamlock.net/tv5hdlive/tv5hdlive/playlist.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://api-tv.ipnet.ua/api/v1/manifest/2118742539.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://api-tv.ipnet.ua/api/v1/manifest/2118742539.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+https://api-tv.ipnet.ua/api/v1/manifest/2118742539.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+http://stream.mcquack.net/291/index.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+http://stream.mcquack.net/291/index.m3u8
+#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇷🇺" group-title="General",Channel 5 🇷🇺
+http://stream.mcquack.net/291/index.m3u8
+#EXTINF:-1 tvg-id="Moskva24.ru" tvg-name="Moskva 24 🇷🇺" group-title="General",Moskva 24 🇷🇺
+https://stream.smotrim.ru/hls/givc8/playlist.m3u8?entity=channel&id=798&sign=37881ef2e289f062ceff0dca6c24dc58
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="Ntv 🇷🇺" group-title="General",Ntv 🇷🇺
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="Ntv 🇷🇺" group-title="General",Ntv 🇷🇺
+https://owrcovcrpy.gpcdn.net/bpk-tv/1716/output/index.m3u8
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="Ntv 🇷🇺" group-title="General",Ntv 🇷🇺
+https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
+#EXTINF:-1 tvg-id="NTV.ru" tvg-name="Ntv 🇷🇺" group-title="General",Ntv 🇷🇺
+https://cdn4.skygo.mn/live/disk1/NTVHD/DASH-FTA/NTVHD.mpd
+#EXTINF:-1 tvg-id="Zvezda.ru" tvg-name="Zvezda 🇷🇺" group-title="General",Zvezda 🇷🇺
+http://51.158.144.33:2021/zvezda/index.m3u8
+#EXTINF:-1 tvg-id="TV4.ru" tvg-name="Tv4 🇷🇺" group-title="General, Comedy, Movies, Kids, Documentary",Tv4 🇷🇺
+https://cdn-s-playnow-live.pluscdn.pl/ch/1502601/309/dash/e25c2c93/live.mpd
+#EXTINF:-1 tvg-id="TV4.ru" tvg-name="Tv4 🇷🇺" group-title="General, Comedy, Movies, Kids, Documentary",Tv4 🇷🇺
+https://cdn4.skygo.mn/live/disk1/TV4/DASH-FTA/TV4.mpd
+#EXTINF:-1 tvg-id="Carousel.ru" tvg-name="Carousel 🇷🇺" group-title="Kids",Carousel 🇷🇺
+http://31.148.48.15/Karusel_HD/index.m3u8
+#EXTINF:-1 tvg-id="Chizhik.ru" tvg-name="Chizhik 🇷🇺" group-title="Kids",Chizhik 🇷🇺
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/chizik-hd.m3u8
+#EXTINF:-1 tvg-id="STSkids.ru" tvg-name="Sts Kids 🇷🇺" group-title="Kids",Sts Kids 🇷🇺
+http://31.148.48.15/STS_Kids_HD/index.m3u8
+#EXTINF:-1 tvg-id="STSkids.ru" tvg-name="Sts Kids 🇷🇺" group-title="Kids",Sts Kids 🇷🇺
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/ctc-kids-hd.m3u8
+#EXTINF:-1 tvg-id="TipTop.ru" tvg-name="Tiptop 🇷🇺" group-title="Kids",Tiptop 🇷🇺
+http://de.russkoe-iptv.com:88/s/s-e3dc39e0/tip-top-hd.m3u8
+#EXTINF:-1 tvg-id="Domkino.ru" tvg-name="Dom Kino 🇷🇺" group-title="Movies",Dom Kino 🇷🇺
+https://tchaikovsky.af-stream.com:991/s/xzztutfc/dom-kino-hd/video.m3u8
+#EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-name="Kinopremyera 🇷🇺" group-title="Movies",Kinopremyera 🇷🇺
+http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
+#EXTINF:-1 tvg-id="AmediaHit.ru" tvg-name="Amedia Hit 🇷🇺" group-title="Movies, Series",Amedia Hit 🇷🇺
+http://stream.mcquack.net/162/index.m3u8
+#EXTINF:-1 tvg-id="15PlusMusic.ru" tvg-name="15+ Music 🇷🇺" group-title="Music",15+ Music 🇷🇺
+https://live.15plusmg.ru/memfs/ce3366b1-bf25-4e24-96bb-1adf0d44bd3d.m3u8
+#EXTINF:-1 tvg-id="BRIDGEDeluxe.ru" tvg-name="Bridge Deluxe 🇷🇺" group-title="Music",Bridge Deluxe 🇷🇺
+http://31.148.48.15/Bridge_TV_HD/index.m3u8
+#EXTINF:-1 tvg-id="EuropaPlusTV.ru" tvg-name="Europa Plus Tv 🇷🇺" group-title="Music",Europa Plus Tv 🇷🇺
+http://31.148.48.15/Europa_Plus_HD/index.m3u8
+#EXTINF:-1 tvg-id="FonMusic.ru" tvg-name="Fon Music 🇷🇺" group-title="Music",Fon Music 🇷🇺
+http://hls127.freeott.top:8080/TNT_MUSIC_HD/video.m3u8
+#EXTINF:-1 tvg-id="RUTV.ru" tvg-name="Ru.Tv 🇷🇺" group-title="Music",Ru.Tv 🇷🇺
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1 tvg-id="RUTV.ru" tvg-name="Ru.Tv 🇷🇺" group-title="Music",Ru.Tv 🇷🇺
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1 tvg-id="RUTV.ru" tvg-name="Ru.Tv 🇷🇺" group-title="Music",Ru.Tv 🇷🇺
+https://bl.rutube.ru/livestream/b1eb8e90d7e636677b3eb73b4fcbb717/index.m3u8?e=2069285076&s=d-E-bxKy2v3EEJ94RQX9CA&scheme=https
+#EXTINF:-1 tvg-id="Russia24.ru" tvg-name="Russia-24 🇷🇺" group-title="News",Russia-24 🇷🇺
+http://41.223.30.230/ROSSIYA24/index.m3u8
+#EXTINF:-1 tvg-id="NTVHit.ru" tvg-name="Ntv-Hit 🇷🇺" group-title="Series",Ntv-Hit 🇷🇺
+https://cdn-dvr.ntv.ru/th_hit/index.m3u8
+#EXTINF:-1 tvg-id="TravelPlusAdventure.ru" tvg-name="Travel+Adventure 🇷🇺" group-title="Travel",Travel+Adventure 🇷🇺
+http://31.148.48.15/Travel_Adventure_HD/index.m3u8

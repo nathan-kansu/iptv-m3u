@@ -1,11 +1,13 @@
 import asyncio
 import ffmpeg
 
-async def is_playable(url: str, timeout: int = 6) -> bool:
+async def is_playable(url: str, timeout: int = 7) -> bool:
     try:
         await asyncio.wait_for(asyncio.to_thread(ffmpeg.probe, url), timeout=timeout)
+        print(f'✅ {url}')
         return True
     except (ffmpeg.Error, asyncio.TimeoutError):
+        print(f'❌ {url}')
         return False
 
 async def check_streams(urls: list[str], concurrency:int=10 ) -> list[str]:
