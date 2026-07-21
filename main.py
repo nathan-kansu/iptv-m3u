@@ -19,12 +19,16 @@ print(f"Updating database...")
 data["working"] = data["stream_url"].isin(working_streams)
 data['channel_name'] = data['channel_name'].apply(parse_channel_name)
 data['channel_categories'] = data['channel_categories'].apply(parse_categories)
-working_data = data[data["working"]]
+
+print(f"Creating playlist...")
+working_data = data[data["working"]].copy()
+working_data = working_data.dropna(subset=["stream_url"])
+working_data = working_data[working_data["stream_url"].astype(str).str.strip() != ""]
 
 print(f"Writing playlist...")
 write_m3u(working_data)
 
-print(f"Playlist generated with {len(data)} channels")
+print(f"Playlist generated with {len(working_data)} channels")
 exit()
 
 
