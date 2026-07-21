@@ -60,7 +60,6 @@ def query_db() -> DataFrame:
         JOIN '{countries_url}' AS countries
             ON channels.country = countries.code
         WHERE channels.closed IS NULL
-        AND feeds.id = 'HD'
         AND array_length(channels.categories, 1) > 0
         ORDER BY channels.country, channel_categories, channel_name ASC
         """

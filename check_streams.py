@@ -17,20 +17,26 @@ async def is_playable(url: str, timeout: int = 5) -> bool:
 
         probe = await asyncio.wait_for(asyncio.to_thread(ffmpeg.probe, url), timeout=timeout)
 
-        video_stream = next(
-            (stream for stream in probe["streams"]
-             if stream["codec_type"] == "video"),
-            None
-        )
+        streams = probe.get("streams", []) if isinstance(probe, dict) else []
+        video_stream = next((s for s in streams if s.get("codec_type") == "video"), None)
 
         if video_stream is None:
             return False
 
-        width = int(video_stream["width"])
-        height = int(video_stream["height"])
+        width = video_stream.get("width")
+        height = video_stream.get("height")
 
-        # valid = width >= 1920 and height >= 1080 and width <= 3840 and height <= 2160
-        valid = width >= 1280 and height >= 720 and width <= 3840 and height <= 2160
+        if width is None or height is None:
+            return False
+
+        try:
+            width = int(width)
+            height = int(height)
+        except (TypeError, ValueError):
+            return False
+
+        valid = width >= 1920 and height >= 1080
+        # valid = width >= 1280 and height >= 720 and width <= 3840 and height <= 2160
 
         if valid:
             print(f'✅ {url}')
