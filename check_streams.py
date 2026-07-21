@@ -3,7 +3,7 @@ import ffmpeg
 import requests
 
 
-async def is_playable(url: str, timeout: int = 5) -> bool:
+async def is_playable(url: str, timeout: int = 2) -> bool:
     try:
         request = requests.get(url, stream=True, timeout=2)
         if request.status_code != 200:
@@ -29,7 +29,8 @@ async def is_playable(url: str, timeout: int = 5) -> bool:
         width = int(video_stream["width"])
         height = int(video_stream["height"])
 
-        valid = width >= 1920 and height >= 1080 and width <= 3840 and height <= 2160
+        # valid = width >= 1920 and height >= 1080 and width <= 3840 and height <= 2160
+        valid = width >= 1280 and height >= 720 and width <= 3840 and height <= 2160
 
         if valid:
             print(f'✅ {url}')
