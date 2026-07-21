@@ -23,14 +23,15 @@ async def is_playable(url: str, timeout: int = 7) -> bool:
             print(f'✅ {url}')
             return True
         else:
+            print(f'❌ {url}')
             return False
-    except (ffmpeg.Error, asyncio.TimeoutError) as exc:
+    except (ffmpeg.Error, asyncio.TimeoutError):
         print(f'❌ {url}')
 
-        if isinstance(exc, ffmpeg.Error):
-          print(exc.stderr) # type: ignore
-        else:
-         print(exc)
+        # if isinstance(exc, ffmpeg.Error):
+        #   print(exc.stderr) # type: ignore
+        # else:
+        #  print(exc)
 
         return False
 

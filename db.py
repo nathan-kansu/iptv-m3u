@@ -33,6 +33,7 @@ from constants import channels_url, feeds_url, streams_url, logos_url, countries
         #         OR streams.quality LIKE '720%'
         #     )
         # ORDER BY channel_country, channel_categories, channel_name ASC
+        # AND channels.country = 'RU'
 
 def query_db() -> DataFrame:
     return duckdb.sql(
@@ -57,13 +58,8 @@ def query_db() -> DataFrame:
         JOIN '{countries_url}' AS countries
             ON channels.country = countries.code
         WHERE channels.closed IS NULL
-        AND channels.country = 'RU'
-        AND (
-                feeds.id = 'HD'
-            )
-        AND (
-            streams.quality LIKE '%1080%'
-        )
+        AND feeds.id = 'HD'
+        AND streams.quality LIKE '%1080%'
         ORDER BY channel_country, channel_categories, channel_name ASC
         """
     ).df()

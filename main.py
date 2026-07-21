@@ -25,6 +25,7 @@ print(f"Writing playlist...")
 write_m3u(data)
 
 print(f"Playlist generated with {len(data)} channels")
+exit();
 
 
 
