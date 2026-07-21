@@ -20,7 +20,6 @@ data["working"] = data["stream_url"].isin(working_streams)
 data['channel_name'] = data['channel_name'].apply(parse_channel_name)
 data['channel_categories'] = data['channel_categories'].apply(parse_categories)
 working_data = data[data["working"]]
-# print(working_data)
 
 print(f"Writing playlist...")
 write_m3u(data)
