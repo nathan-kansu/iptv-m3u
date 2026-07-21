@@ -15,6 +15,8 @@ from constants import channels_url, feeds_url, streams_url, logos_url, countries
 # list_contains(channels.categories, 'kids')
 # AND channel_country IN ['US', 'UK']
 # AND channels.id IS NOT NULL
+# AND feeds.id = 'HD'
+#         AND streams.quality LIKE '%1080%'
 # AND (
 #     channels.categories IS NOT NULL
 #     AND array_length(channels.categories, 1) > 0
@@ -59,7 +61,6 @@ def query_db() -> DataFrame:
             ON channels.country = countries.code
         WHERE channels.closed IS NULL
         AND feeds.id = 'HD'
-        AND streams.quality LIKE '%1080%'
         AND array_length(channels.categories, 1) > 0
         ORDER BY channels.country, channel_categories, channel_name ASC
         """
