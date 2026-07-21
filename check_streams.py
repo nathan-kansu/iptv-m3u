@@ -3,9 +3,9 @@ import ffmpeg
 import requests
 
 
-async def is_playable(url: str, timeout: int = 2) -> bool:
+async def is_playable(url: str, timeout: int = 5) -> bool:
     try:
-        request = requests.get(url, stream=True, timeout=2)
+        request = requests.get(url, stream=True, timeout=5)
         if request.status_code != 200:
             print(f'❌ {url} (status {request.status_code})')
             return False
