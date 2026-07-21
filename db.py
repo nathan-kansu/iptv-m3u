@@ -60,6 +60,6 @@ def query_db() -> DataFrame:
         WHERE channels.closed IS NULL
         AND feeds.id = 'HD'
         AND streams.quality LIKE '%1080%'
-        ORDER BY channel_country, channel_categories, channel_name ASC
+        ORDER BY channel_categories, channel_name ASC
         """
     ).df()
