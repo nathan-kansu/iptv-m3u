@@ -2,3 +2,4 @@ duckdb
 numpy
 pandas
 ffmpeg-python
+requests

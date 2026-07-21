@@ -22,10 +22,10 @@ data['channel_categories'] = data['channel_categories'].apply(parse_categories)
 working_data = data[data["working"]]
 
 print(f"Writing playlist...")
-write_m3u(data)
+write_m3u(working_data)
 
 print(f"Playlist generated with {len(data)} channels")
-exit();
+exit()
 
 
 

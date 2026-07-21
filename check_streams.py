@@ -1,8 +1,20 @@
 import asyncio
 import ffmpeg
+import requests
 
-async def is_playable(url: str, timeout: int = 7) -> bool:
+
+async def is_playable(url: str, timeout: int = 5) -> bool:
     try:
+        request = requests.get(url, stream=True, timeout=2)
+        if request.status_code != 200:
+            print(f'❌ {url} (status {request.status_code})')
+            return False
+
+        chunk = next(request.iter_content(4096), None)
+        if chunk is None:
+            print(f'❌ {url} (empty stream)')
+            return False
+
         probe = await asyncio.wait_for(asyncio.to_thread(ffmpeg.probe, url), timeout=timeout)
 
         video_stream = next(
@@ -25,14 +37,11 @@ async def is_playable(url: str, timeout: int = 7) -> bool:
         else:
             print(f'❌ {url}')
             return False
-    except (ffmpeg.Error, asyncio.TimeoutError):
-        print(f'❌ {url}')
-
-        # if isinstance(exc, ffmpeg.Error):
-        #   print(exc.stderr) # type: ignore
-        # else:
-        #  print(exc)
-
+    except (requests.exceptions.Timeout, requests.exceptions.ConnectionError, requests.exceptions.RequestException) as exc:
+        print(f'❌ {url} ({exc})')
+        return False
+    except (ffmpeg.Error, asyncio.TimeoutError) as exc:
+        print(f'❌ {url} ({exc})')
         return False
 
 async def check_streams(urls: list[str], concurrency:int=10 ) -> list[str]:
