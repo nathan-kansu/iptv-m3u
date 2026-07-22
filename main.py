@@ -29,7 +29,7 @@ print(f"Writing playlist...")
 write_m3u(working_data)
 
 print(f"Playlist generated with {len(working_data)} channels")
-exit()
+quit()
 
 
 

@@ -1,11 +1,11 @@
 import asyncio
-import ffmpeg
 import requests
-
+import ffmpeg
+from typing import Any
 
 async def is_playable(url: str, timeout: int = 5) -> bool:
     try:
-        request = requests.get(url, stream=True, timeout=5)
+        request = requests.get(url, stream=True, timeout=timeout)
         if request.status_code != 200:
             print(f'❌ {url} (status {request.status_code})')
             return False
@@ -14,10 +14,9 @@ async def is_playable(url: str, timeout: int = 5) -> bool:
         if chunk is None:
             print(f'❌ {url} (empty stream)')
             return False
-
-        probe = await asyncio.wait_for(asyncio.to_thread(ffmpeg.probe, url), timeout=timeout)
-
-        streams = probe.get("streams", []) if isinstance(probe, dict) else []
+        thread = asyncio.to_thread(ffmpeg.probe, url)
+        probe: dict[str, Any] = await asyncio.wait_for(thread, timeout=timeout)
+        streams = probe.get("streams", [])
         video_stream = next((s for s in streams if s.get("codec_type") == "video"), None)
 
         if video_stream is None:
@@ -47,7 +46,7 @@ async def is_playable(url: str, timeout: int = 5) -> bool:
     except (requests.exceptions.Timeout, requests.exceptions.ConnectionError, requests.exceptions.RequestException) as exc:
         print(f'❌ {url} ({exc})')
         return False
-    except (ffmpeg.Error, asyncio.TimeoutError) as exc:
+    except (Exception) as exc:
         print(f'❌ {url} ({exc})')
         return False
 

@@ -61,6 +61,7 @@ def query_db() -> DataFrame:
             ON channels.country = countries.code
         WHERE channels.closed IS NULL
         AND array_length(channels.categories, 1) > 0
+        AND NOT list_has_any(channels.categories, ['shop', 'religious'])
         ORDER BY channels.country, channel_categories, channel_name ASC
         """
     ).df()
