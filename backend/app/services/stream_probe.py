@@ -9,8 +9,8 @@ def is_valid_frame_rate(avg_frame_rate: str)-> bool :
 def is_video_stream(stream: dict[str, Any]) -> bool:
    return stream.get("codec_type") == "video"
 
-def is_valid_codex(codex: str):
-    return codex == 'h264'
+def is_valid_codec(codec: str) -> bool:
+    return codec == 'h264'
 
 def is_valid_dimensions(width: int|None, height: int|None) -> bool :
     if width is None or height is None:

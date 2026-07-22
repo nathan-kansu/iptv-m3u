@@ -1,10 +1,11 @@
 import os
 import tempfile
 import unittest
+from pathlib import Path
 
 import pandas as pd
 
-from write_m3u import write_m3u
+from backend.app.services.m3u import write_m3u
 
 
 class WriteM3UTests(unittest.TestCase):
@@ -23,7 +24,7 @@ class WriteM3UTests(unittest.TestCase):
             previous_cwd = os.getcwd()
             os.chdir(tmpdir)
             try:
-                write_m3u(df)
+                write_m3u(df, Path("custom-playlist.m3u"))
                 with open("custom-playlist.m3u", "r", encoding="utf-8") as handle:
                     content = handle.read()
             finally:
