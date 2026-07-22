@@ -6,11 +6,18 @@ def is_valid_frame_rate(avg_frame_rate: str)-> bool :
     fps = float(Fraction(avg_frame_rate))
     return fps >= FRAME_RATE
 
+def is_valid_bit_rate(bit_rate: str) -> bool:
+    print(f"BIT RATE: ${bit_rate}")
+    foo = int(bit_rate)
+    print(f'BIT RATE: ${foo}')
+    return foo >= 5
+
 def is_video_stream(stream: dict[str, Any]) -> bool:
    return stream.get("codec_type") == "video"
 
 def is_valid_codec(codec: str) -> bool:
-    return codec == 'h264'
+    print(f'CODEC: ${codec}')
+    return codec in ['h264', 'hevc', 'h265']
 
 def is_valid_dimensions(width: int|None, height: int|None) -> bool :
     if width is None or height is None:

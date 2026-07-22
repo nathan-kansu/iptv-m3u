@@ -2,9 +2,9 @@ import asyncio
 import urllib.request
 import ffmpeg
 from typing import Any
-from backend.app.services.stream_probe import is_valid_frame_rate, is_video_stream, is_valid_dimensions
+from backend.app.services.stream_probe import is_valid_frame_rate, is_video_stream, is_valid_dimensions, is_valid_codec, is_valid_bit_rate
 
-async def is_playable(url: str, timeout: int = 3) -> bool:
+async def is_playable(url: str, timeout: int = 5) -> bool:
     try:
         request = urllib.request.urlopen(url, timeout=timeout)
         if request.status != 200:
@@ -27,11 +27,13 @@ async def is_playable(url: str, timeout: int = 3) -> bool:
         height = video_stream.get("height")
         avg_frame_rate = video_stream.get('avg_frame_rate')
         # codec_name = video_stream.get('codec_name')
+        # bit_rate = video_stream.get('bit_rate')
 
         return (
             is_valid_dimensions(width, height)
             and is_valid_frame_rate(avg_frame_rate)
             # and is_valid_codec(codec_name)
+            # and is_valid_bit_rate(bit_rate)
         )
     except (Exception):
         return False
