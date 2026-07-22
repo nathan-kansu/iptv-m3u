@@ -2,4 +2,15 @@ def parse_channel_name(channel_name: str) -> str:
      return channel_name.title()
 
 def parse_categories(categories: list[str]) -> str:
-     return ", ".join(map(str.title, categories))
+     category_string = ", ".join(map(str.title, categories))
+
+     if('music' in category_string ):
+        return 'Music'
+     elif('kids' in category_string ):
+        return 'Kids'
+     elif('movies' in category_string ):
+        return 'Movies'
+     elif('sport' in category_string ):
+        return 'Sports'
+     else:
+        return 'General'
