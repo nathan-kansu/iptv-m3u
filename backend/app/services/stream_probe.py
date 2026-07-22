@@ -2,7 +2,7 @@ from fractions import Fraction
 from typing import Any
 
 def is_valid_frame_rate(avg_frame_rate: str)-> bool :
-    FRAME_RATE = 25
+    FRAME_RATE = 20
     fps = float(Fraction(avg_frame_rate))
     return fps >= FRAME_RATE
 
