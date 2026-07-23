@@ -1,18 +1,31 @@
-
 import duckdb
 from pandas import DataFrame
-from backend.app.config import channels_url, feeds_url, streams_url, logos_url, countries_url
+from backend.app.config import (
+    channels_url,
+    feeds_url,
+    streams_url,
+    logos_url,
+    countries_url,
+)
+from typing import TypedDict
 
-def query_db() -> DataFrame:
-    return duckdb.sql(
-        f"""
+
+class ChannelType(TypedDict):
+    channel_id: str
+    channel_name: str
+    channel_categories: str
+    channel_country: str
+    country_flag: str
+    stream_url: str
+
+
+def fetch_channels() -> DataFrame:
+    return duckdb.sql(f"""
         SELECT
             channels.id AS channel_id,
             channels.name AS channel_name,
             channels.categories as channel_categories,
             channels.country as channel_country,
-            feeds.id as feeds_id,
-            streams.quality as stream_quality,
             streams.url as stream_url,
             countries.flag as country_flag,
         FROM '{channels_url}' AS channels
@@ -25,9 +38,7 @@ def query_db() -> DataFrame:
         JOIN '{countries_url}' AS countries
             ON channels.country = countries.code
         WHERE channels.closed IS NULL
-        AND channels.country IN ['RU']
         AND array_length(channels.categories, 1) > 0
         AND NOT list_has_any(channels.categories, ['shop', 'religious'])
-        ORDER BY channels.country, channel_categories, channel_name ASC
-        """
-    ).df()
+        ORDER BY channels.country, channels.categories, channels.name ASC
+        """).df()
