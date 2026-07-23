@@ -47,7 +47,7 @@ def generate_playlist(output_path: Path) -> PlaylistResult:
     channels["channel_categories"] = channels["channel_categories"].apply(parse_categories)
 
     print("Creating playlist...")
-    working_channels = channels[channels["working"]].copy()
+    working_channels = channels[channels["working"]].drop_duplicates().copy()
     working_channels = working_channels.dropna(subset=["stream_url"])
     working_channels = working_channels[working_channels["stream_url"].astype(str).str.strip() != ""]
 
