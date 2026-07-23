@@ -25,7 +25,7 @@ def query_db() -> DataFrame:
         JOIN '{countries_url}' AS countries
             ON channels.country = countries.code
         WHERE channels.closed IS NULL
-        AND channels.country IN ['UK', 'RU']
+        AND channels.country IN ['RU']
         AND array_length(channels.categories, 1) > 0
         AND NOT list_has_any(channels.categories, ['shop', 'religious'])
         ORDER BY channels.country, channel_categories, channel_name ASC
