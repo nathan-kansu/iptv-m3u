@@ -2,7 +2,7 @@ import asyncio
 import urllib.request
 import ffmpeg
 from typing import Any
-from backend.app.services.stream_probe import is_valid_frame_rate, is_video_stream, is_valid_dimensions, is_valid_codec, is_valid_bit_rate
+from backend.app.services.stream_probe import is_valid_frame_rate, is_stream_type, is_valid_dimensions
 
 async def is_playable(url: str, timeout: int = 5) -> bool:
     try:
@@ -17,12 +17,17 @@ async def is_playable(url: str, timeout: int = 5) -> bool:
         thread = asyncio.to_thread(ffmpeg.probe, url)
         probe: dict[str, Any] = await asyncio.wait_for(thread, timeout=timeout)
         streams = probe.get("streams", [])
-        valid_streams = (stream for stream in streams if is_video_stream(stream))
+        video_streams = (stream for stream in streams if is_stream_type(stream, 'video'))
+        audio_streams = (stream for stream in streams if is_stream_type(stream, 'audio'))
 
-        video_stream = next(valid_streams, None)
-        if video_stream is None:
+        audio_stream = next(audio_streams, None)
+        video_stream = next(video_streams, None)
+
+        if video_stream is None or audio_stream is None:
             return False
 
+        language = audio_stream.get('tags').get('language')
+        print(f'The language is {language}')
         width = video_stream.get("width")
         height = video_stream.get("height")
         avg_frame_rate = video_stream.get('avg_frame_rate')

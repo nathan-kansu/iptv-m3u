@@ -12,8 +12,8 @@ def is_valid_bit_rate(bit_rate: str) -> bool:
     print(f'BIT RATE: ${foo}')
     return foo >= 5
 
-def is_video_stream(stream: dict[str, Any]) -> bool:
-   return stream.get("codec_type") == "video"
+def is_stream_type(stream: dict[str, Any], type: str) -> bool:
+   return stream.get("codec_type") == type
 
 def is_valid_codec(codec: str) -> bool:
     print(f'CODEC: ${codec}')
