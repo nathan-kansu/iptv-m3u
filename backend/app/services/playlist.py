@@ -1,4 +1,3 @@
-# playlist.py
 import asyncio
 from dataclasses import dataclass
 from pathlib import Path
@@ -12,6 +11,7 @@ from backend.app.services.channel_formatting import (
     parse_country_flag,
 )
 from backend.app.services.m3u import write_m3u
+from backend.app.types.types import StreamQuality
 
 
 @dataclass(frozen=True)
@@ -27,19 +27,19 @@ def is_working_stream(stream_result: StreamCheckResult | None) -> bool:
     return stream_result is not None and stream_result.is_playable
 
 
-def generate_playlist(output_path: Path) -> PlaylistResult:
+def generate_playlist(output_path: Path, quality: StreamQuality) -> PlaylistResult:
     print("Finding channels...")
     channels = fetch_channels()
     total_channels = len(channels)
 
-    print(f"Found {total_channels} channels")
+    print(f"Found {total_channels} {quality} channels")
 
     print("Checking streams...")
     urls: list[str] = channels["stream_url"].drop_duplicates().dropna().tolist()
     total_urls = len(urls)
 
     print(f"Found {total_urls} urls")
-    stream_results = asyncio.run(check_streams(urls))
+    stream_results = asyncio.run(check_streams(urls=urls, quality=quality))
 
     print("Updating database...")
     stream_urls: Series[str] = channels["stream_url"].dropna()
@@ -61,7 +61,7 @@ def generate_playlist(output_path: Path) -> PlaylistResult:
     working_channels = (
         working_channels.drop_duplicates(subset=["stream_url"])
         .dropna(subset=["stream_url"])
-        .drop_duplicates(subset=["channel_name"])
+        .drop_duplicates(subset=["channel_name", "country_flag"])
     )
     # working_channels = working_channels[
     #     working_channels["stream_url"].astype(str).str.strip() != ""
