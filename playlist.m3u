@@ -1,4 +1,190 @@
 #EXTM3U
+#EXTINF:-1 tvg-id="ATV.am" tvg-name="Atv 🇦🇲" group-title="General",Atv 🇦🇲
+http://stream.mcquack.net/36/index.m3u8
+#EXTINF:-1 tvg-id="KentronTV.am" tvg-name="Kentron Tv 🇺🇸" group-title="General",Kentron Tv 🇺🇸
+http://stream.mcquack.net/39/index.m3u8
+#EXTINF:-1 tvg-id="Canal1.ar" tvg-name="Canal 1 🇦🇷" group-title="General",Canal 1 🇦🇷
+http://177.234.249.135:8888/CANAL_UNO/index.m3u8
+#EXTINF:-1 tvg-id="QuieroMusicaenmiIdioma.ar" tvg-name="Quiero Musica En Mi Idioma 🇦🇷" group-title="Music",Quiero Musica En Mi Idioma 🇦🇷
+http://177.234.249.178:8888/MTV/index.m3u8
+#EXTINF:-1 tvg-id="ComedyCentral.at" tvg-name="Comedy Central 🇦🇹" group-title="General",Comedy Central 🇦🇹
+http://23.237.104.106:8080/USA_COMEDY_CENTRAL/index.m3u8
+#EXTINF:-1 tvg-id="History.au" tvg-name="History 🇦🇺" group-title="General",History 🇦🇺
+http://40.160.24.53/HISTORY_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="NickJr.au" tvg-name="Nick Jr. 🇦🇺" group-title="Kids",Nick Jr. 🇦🇺
+http://206.212.244.63/3150/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.au" tvg-name="Nickelodeon 🇷🇺" group-title="Kids",Nickelodeon 🇷🇺
+http://stream.mcquack.net/443/index.m3u8
+#EXTINF:-1 tvg-id="Nickelodeon.au" tvg-name="Nickelodeon 🇦🇺" group-title="Kids",Nickelodeon 🇦🇺
+http://23.237.104.106:8080/USA_NICKELODEON/index.m3u8
+#EXTINF:-1 tvg-id="AE.au" tvg-name="A&E 🇦🇺" group-title="General",A&E 🇦🇺
+http://206.212.244.63/1/index.m3u8
+#EXTINF:-1 tvg-id="CMT.au" tvg-name="Cmt 🇦🇺" group-title="Music",Cmt 🇦🇺
+http://23.237.104.106:8080/USA_CMT/index.m3u8
+#EXTINF:-1 tvg-id="LaUne.be" tvg-name="La Une 🇧🇪" group-title="General",La Une 🇧🇪
+http://145.239.5.177/329/index.m3u8
+#EXTINF:-1 tvg-id="LaTrois.be" tvg-name="La Trois 🇧🇪" group-title="General",La Trois 🇧🇪
+http://145.239.5.177/330/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.be" tvg-name="Disney Channel 🇺🇸" group-title="Kids",Disney Channel 🇺🇸
+http://151.80.18.177:86/Disney_Channel_HD/index.m3u8
+#EXTINF:-1 tvg-id="DisneyChannel.be" tvg-name="Disney Channel 🇧🇪" group-title="Kids",Disney Channel 🇧🇪
+http://86.87.15.10:8004/play/a02g/index.m3u8
+#EXTINF:-1 tvg-id="Nicktoons.bg" tvg-name="Nicktoons 🇺🇸" group-title="Kids",Nicktoons 🇺🇸
+http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="BoliviaTV.bo" tvg-name="Bolivia Tv 🇧🇴" group-title="General",Bolivia Tv 🇧🇴
+http://15.204.246.24:8080/BoliviaTvHD/index.m3u8
+#EXTINF:-1 tvg-id="TVERS.br" tvg-name="Tve Rs 🇧🇷" group-title="General",Tve Rs 🇧🇷
+http://streaming.procergs.com.br:1935/tve/stve/playlist.m3u8
+#EXTINF:-1 tvg-id="CanalEducacao.br" tvg-name="Canal Educacao 🇧🇷" group-title="General",Canal Educacao 🇧🇷
+http://138.255.2.6:8084/TVESCOLA/index.m3u8
+#EXTINF:-1 tvg-id="RedeBrasil.br" tvg-name="Rede Brasil 🇺🇸" group-title="General",Rede Brasil 🇺🇸
+http://138.255.2.6:8084/REDEBRASIL/index.m3u8
+#EXTINF:-1 tvg-id="JovemPanNews.br" tvg-name="Jovem Pan News 🇧🇷" group-title="General",Jovem Pan News 🇧🇷
+http://186.219.52.187:80/jp_news/index.m3u8
+#EXTINF:-1 tvg-id="SmithsonianChannel.br" tvg-name="Smithsonian Channel 🇧🇷" group-title="General",Smithsonian Channel 🇧🇷
+http://40.160.24.55/SMITHSONIAN/index.m3u8
+#EXTINF:-1 tvg-id="E.ca" tvg-name="E! 🇨🇦" group-title="General",E! 🇨🇦
+http://23.237.104.106:8080/USA_E/index.m3u8
+#EXTINF:-1 tvg-id="AzStarTV.ca" tvg-name="Az Star Tv 🇨🇦" group-title="General",Az Star Tv 🇨🇦
+http://live.azstartv.com/azstar/smil:azstar.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="HauntTV.ca" tvg-name="Haunttv 🇨🇦" group-title="General",Haunttv 🇨🇦
+http://206.212.244.63/87/index.m3u8
+#EXTINF:-1 tvg-id="TSN2.ca" tvg-name="Tsn2 🇨🇦" group-title="Sports",Tsn2 🇨🇦
+http://40.160.24.55/TSN_2/index.m3u8
+#EXTINF:-1 tvg-id="Carac1.ch" tvg-name="Carac 1 🇨🇭" group-title="General",Carac 1 🇨🇭
+http://145.239.5.177/371/index.m3u8
+#EXTINF:-1 tvg-id="CGTNFrench.cn" tvg-name="Cgtn French 🇨🇳" group-title="General",Cgtn French 🇨🇳
+http://145.239.5.177/214/index.m3u8
+#EXTINF:-1 tvg-id="Zoom.co" tvg-name="Zoom 🇨🇴" group-title="General",Zoom 🇨🇴
+http://stream.mcquack.net/327/index.m3u8
+#EXTINF:-1 tvg-id="RCNNovelas.co" tvg-name="Rcn Novelas 🇺🇸" group-title="General",Rcn Novelas 🇺🇸
+http://170.238.200.199:80/rcn-novelas/index.m3u8
+#EXTINF:-1 tvg-id="CaracolTV.co" tvg-name="Caracol Tv 🇨🇴" group-title="General",Caracol Tv 🇨🇴
+http://209.14.115.253:8081/CARACOL/index.m3u8
+#EXTINF:-1 tvg-id="CitytvBogota.co" tvg-name="Citytv Bogota 🇨🇴" group-title="General",Citytv Bogota 🇨🇴
+http://138.121.15.230:9002/CITY-TV/index.m3u8
+#EXTINF:-1 tvg-id="NuestraTeleInternacional.co" tvg-name="Nuestra Tele Internacional 🇺🇸" group-title="General",Nuestra Tele Internacional 🇺🇸
+http://170.238.200.199:80/nuestra-tele/index.m3u8
+#EXTINF:-1 tvg-id="RCNHD2.co" tvg-name="Rcn Hd2 🇺🇸" group-title="General",Rcn Hd2 🇺🇸
+http://181.78.14.26:4000/play/a07m/index.m3u8
+#EXTINF:-1 tvg-id="CanalCongreso.co" tvg-name="Canal Congreso 🇨🇴" group-title="General",Canal Congreso 🇨🇴
+http://138.121.15.230:9002/CANAL-CONGRESO/index.m3u8
+#EXTINF:-1 tvg-id="RumbaTV.co" tvg-name="Rumba Tv 🇨🇴" group-title="Music",Rumba Tv 🇨🇴
+http://45.162.193.35/RUMBATV/index.m3u8
+#EXTINF:-1 tvg-id="WinSports.co" tvg-name="Win Sports 🇺🇸" group-title="Sports",Win Sports 🇺🇸
+http://138.121.15.230:9002/WIN-SPORT/index.m3u8
+#EXTINF:-1 tvg-id="ColosalTV.cr" tvg-name="Colosal Tv 🇨🇷" group-title="General",Colosal Tv 🇨🇷
+http://tv.ticosmedia.com:1935/COLOSAL/COLOSAL/playlist.m3u8
+#EXTINF:-1 tvg-id="CablenetSports1.cy" tvg-name="Cablenet Sports 1 🇨🇾" group-title="Sports",Cablenet Sports 1 🇨🇾
+http://185.102.171.218/CablenetSports1/index.m3u8
+#EXTINF:-1 tvg-id="CablenetSports2.cy" tvg-name="Cablenet Sports 2 🇨🇾" group-title="Sports",Cablenet Sports 2 🇨🇾
+http://185.102.171.218/CablenetSports2/index.m3u8
+#EXTINF:-1 tvg-id="CytavisionSports1.cy" tvg-name="Cytavision Sports 1 🇨🇾" group-title="Sports",Cytavision Sports 1 🇨🇾
+http://185.102.171.218/Cytavisionsports1/index.m3u8
+#EXTINF:-1 tvg-id="CytavisionSports2.cy" tvg-name="Cytavision Sports 2 🇨🇾" group-title="Sports",Cytavision Sports 2 🇨🇾
+http://185.102.171.218/Cytavisionsports2/index.m3u8
+#EXTINF:-1 tvg-id="CytavisionSports3.cy" tvg-name="Cytavision Sports 3 🇨🇾" group-title="Sports",Cytavision Sports 3 🇨🇾
+http://185.102.171.218/Cytavisionsports3/index.m3u8
+#EXTINF:-1 tvg-id="Sport5.cz" tvg-name="Sport 5 🇺🇸" group-title="Sports",Sport 5 🇺🇸
+http://stream.mcquack.net/212/index.m3u8
+#EXTINF:-1 tvg-id="VH1.dk" tvg-name="Vh1 🇩🇰" group-title="Music",Vh1 🇩🇰
+http://206.212.244.63/169/index.m3u8
+#EXTINF:-1 tvg-id="Ecuavisa.ec" tvg-name="Ecuavisa 🇪🇨" group-title="General",Ecuavisa 🇪🇨
+http://177.234.249.178:8888/ECUAVISA/index.m3u8
+#EXTINF:-1 tvg-id="Gamavision.ec" tvg-name="Gamavision 🇪🇨" group-title="General",Gamavision 🇪🇨
+http://45.224.97.181:9999/Gamavision/index.m3u8
+#EXTINF:-1 tvg-id="KCHTV.ec" tvg-name="Kchtv 🇪🇨" group-title="General",Kchtv 🇪🇨
+http://iptv.kchtv.video.makrodigital.com:8081/kchtv/iptv/playlist.m3u8
+#EXTINF:-1 tvg-id="OromarTV.ec" tvg-name="Oromar Tv 🇪🇨" group-title="General",Oromar Tv 🇪🇨
+http://45.224.97.181:9999/Oromar/index.m3u8
+#EXTINF:-1 tvg-id="RTS.ec" tvg-name="Rts 🇪🇨" group-title="General",Rts 🇪🇨
+http://45.171.108.253:8888/RTS/index.m3u8
+#EXTINF:-1 tvg-id="Teleamazonas.ec" tvg-name="Teleamazonas 🇪🇨" group-title="General",Teleamazonas 🇪🇨
+http://45.224.97.181:9999/Teleamazonas/index.m3u8
+#EXTINF:-1 tvg-id="Go3Sport1.ee" tvg-name="Go3 Sport 1 🇺🇸" group-title="Sports",Go3 Sport 1 🇺🇸
+http://stream.mcquack.net/416/index.m3u8
+#EXTINF:-1 tvg-id="AlMasriyah.eg" tvg-name="Al Masriyah 🇪🇬" group-title="General",Al Masriyah 🇪🇬
+http://185.9.2.18/chid_247/index.m3u8
+#EXTINF:-1 tvg-id="CapTerre.es" tvg-name="Cap Terre 🇪🇸" group-title="General",Cap Terre 🇪🇸
+http://145.239.5.177/359a/index.m3u8
+#EXTINF:-1 tvg-id="SundanceTV.es" tvg-name="Sundance Tv 🇺🇸" group-title="Movies",Sundance Tv 🇺🇸
+http://206.212.244.63/151/index.m3u8
+#EXTINF:-1 tvg-id="SundanceTV.es" tvg-name="Sundance Tv 🇪🇸" group-title="Movies",Sundance Tv 🇪🇸
+http://40.160.24.55/SUNDANCE/index.m3u8
+#EXTINF:-1 tvg-id="6ter.fr" tvg-name="6Ter 🇫🇷" group-title="General",6Ter 🇫🇷
+http://145.239.5.177/314/index.m3u8
+#EXTINF:-1 tvg-id="AB1.fr" tvg-name="Ab1 🇫🇷" group-title="General",Ab1 🇫🇷
+http://145.239.5.177/332/index.m3u8
+#EXTINF:-1 tvg-id="W9.fr" tvg-name="W9 🇫🇷" group-title="General",W9 🇫🇷
+http://145.239.5.177/331a/index.m3u8
+#EXTINF:-1 tvg-id="RMCLife.fr" tvg-name="Rmc Life 🇫🇷" group-title="General",Rmc Life 🇫🇷
+http://145.239.5.177/333/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeEurope.fr" tvg-name="Tv5Monde Europe 🇫🇷" group-title="General",Tv5Monde Europe 🇫🇷
+http://45.14.84.37/tv5monde/index.m3u8
+#EXTINF:-1 tvg-id="Action24.gr" tvg-name="Action 24 🇬🇷" group-title="Movies",Action 24 🇬🇷
+http://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
+#EXTINF:-1 tvg-id="FoxLife.hr" tvg-name="Fox Life 🇷🇺" group-title="General",Fox Life 🇷🇺
+http://stream.mcquack.net/129/index.m3u8
+#EXTINF:-1 tvg-id="ParamountNetwork.hu" tvg-name="Paramount Network 🇭🇺" group-title="Movies",Paramount Network 🇭🇺
+http://206.212.244.63/137/index.m3u8
+#EXTINF:-1 tvg-id="HOTZone.il" tvg-name="Hot Zone 🇮🇱" group-title="General",Hot Zone 🇮🇱
+http://stream.mcquack.net/379/index.m3u8
+#EXTINF:-1 tvg-id="Keshet12.il" tvg-name="Keshet 12 🇺🇸" group-title="General",Keshet 12 🇺🇸
+http://stream.mcquack.net/294/index.m3u8
+#EXTINF:-1 tvg-id="HOTDrama.il" tvg-name="Hot Drama 🇮🇱" group-title="General",Hot Drama 🇮🇱
+http://stream.mcquack.net/381/index.m3u8
+#EXTINF:-1 tvg-id="5Sport.il" tvg-name="5Sport 🇺🇸" group-title="Sports",5Sport 🇺🇸
+http://stream.mcquack.net/41/index.m3u8
+#EXTINF:-1 tvg-id="AlSharqiya.iq" tvg-name="Al Sharqiya 🇺🇸" group-title="General",Al Sharqiya 🇺🇸
+http://185.9.2.18/chid_144/index.m3u8
+#EXTINF:-1 tvg-id="JordanSport.jo" tvg-name="Jordan Sport 🇯🇴" group-title="Sports",Jordan Sport 🇯🇴
+http://93.184.10.248/JordanSport/index.m3u8
+#EXTINF:-1 tvg-id="DogTV.kr" tvg-name="Dog Tv 🇰🇷" group-title="General",Dog Tv 🇰🇷
+http://206.212.244.63/56/index.m3u8
+#EXTINF:-1 tvg-id="GugbangTV.kr" tvg-name="Gugbang Tv 🇰🇷" group-title="General",Gugbang Tv 🇰🇷
+http://mediaworks.dema.mil.kr:1935/live_edge/cudo.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="LBCInternational.lb" tvg-name="Lbc International 🇺🇸" group-title="General",Lbc International 🇺🇸
+http://185.9.2.18/chid_521/index.m3u8
+#EXTINF:-1 tvg-id="LRTPlius.lt" tvg-name="Lrt Plius 🇱🇹" group-title="Sports",Lrt Plius 🇱🇹
+http://stream.mcquack.net/353/index.m3u8
+#EXTINF:-1 tvg-id="LNK.lt" tvg-name="Lnk 🇱🇹" group-title="General",Lnk 🇱🇹
+http://stream.mcquack.net/30/index.m3u8
+#EXTINF:-1 tvg-id="RTL9.lu" tvg-name="Rtl9 🇱🇺" group-title="General",Rtl9 🇱🇺
+http://145.239.5.177/308/index.m3u8
+#EXTINF:-1 tvg-id="LTV7.lv" tvg-name="Ltv7 🇷🇺" group-title="General",Ltv7 🇷🇺
+http://stream.mcquack.net/371/index.m3u8
+#EXTINF:-1 tvg-id="AlMaghribia.ma" tvg-name="Al Maghribia 🇲🇦" group-title="General",Al Maghribia 🇲🇦
+http://185.9.2.18/chid_205/index.m3u8
+#EXTINF:-1 tvg-id="DistritoComedia.mx" tvg-name="Distrito Comedia 🇲🇽" group-title="General",Distrito Comedia 🇲🇽
+http://177.234.249.135:8888/DistritoComedia/index.m3u8
+#EXTINF:-1 tvg-id="LasEstrellasLatinAmerica.mx" tvg-name="Las Estrellas Latin America 🇲🇽" group-title="General",Las Estrellas Latin America 🇲🇽
+http://177.234.249.135:8888/LasEstrellas/index.m3u8
+#EXTINF:-1 tvg-id="TelehitMusica.mx" tvg-name="Telehit Musica 🇲🇽" group-title="Music",Telehit Musica 🇲🇽
+http://181.119.66.28:8081/TELEHIT-MUSICA/index.m3u8
+#EXTINF:-1 tvg-id="TlnovelasLatinAmerica.mx" tvg-name="Tlnovelas Latin America 🇲🇽" group-title="General",Tlnovelas Latin America 🇲🇽
+http://177.234.249.135:8888/Telenovelas/index.m3u8
+#EXTINF:-1 tvg-id="STARChannel.nl" tvg-name="Star Channel 🇳🇱" group-title="General",Star Channel 🇳🇱
+http://86.87.15.10:8003/play/a024/index.m3u8
+#EXTINF:-1 tvg-id="VeronicaDisneyJr.nl" tvg-name="Veronica / Disney Jr. 🇳🇱" group-title="Kids",Veronica / Disney Jr. 🇳🇱
+http://86.87.15.10:8003/play/a01x/index.m3u8
+#EXTINF:-1 tvg-id="Film1Action.nl" tvg-name="Film1 Action 🇳🇱" group-title="Movies",Film1 Action 🇳🇱
+http://86.87.15.10:8008/play/a01l/index.m3u8
+#EXTINF:-1 tvg-id="Film1Drama.nl" tvg-name="Film1 Drama 🇳🇱" group-title="Movies",Film1 Drama 🇳🇱
+http://86.87.15.10:8008/play/a01k/index.m3u8
+#EXTINF:-1 tvg-id="Film1Family.nl" tvg-name="Film1 Family 🇳🇱" group-title="Movies",Film1 Family 🇳🇱
+http://86.87.15.10:8008/play/a01m/index.m3u8
+#EXTINF:-1 tvg-id="Film1Premiere.nl" tvg-name="Film1 Premiere 🇳🇱" group-title="Movies",Film1 Premiere 🇳🇱
+http://86.87.15.10:8008/play/a01n/index.m3u8
+#EXTINF:-1 tvg-id="ZiggoSport.nl" tvg-name="Ziggo Sport 🇳🇱" group-title="Sports",Ziggo Sport 🇳🇱
+http://86.87.15.10:8004/play/a02d/index.m3u8
+#EXTINF:-1 tvg-id="ZiggoSport3.nl" tvg-name="Ziggo Sport 3 🇳🇱" group-title="Sports",Ziggo Sport 3 🇳🇱
+http://86.87.15.10:8003/play/a02k/index.m3u8
+#EXTINF:-1 tvg-id="ZiggoSport5.nl" tvg-name="Ziggo Sport 5 🇳🇱" group-title="Sports",Ziggo Sport 5 🇳🇱
+http://145.239.5.177/349/index.m3u8
+#EXTINF:-1 tvg-id="PanamericanaTV.pe" tvg-name="Panamericana Tv 🇵🇪" group-title="General",Panamericana Tv 🇵🇪
+http://45.171.108.253:8888/PANAMERICANA/index.m3u8
+#EXTINF:-1 tvg-id="KuriakosMusic.pt" tvg-name="Kuriakos Music 🇵🇹" group-title="Music",Kuriakos Music 🇵🇹
+http://195.23.211.179:1935/kmusic/smil:kmusic.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="FAN.ru" tvg-name="Fan 🇷🇺" group-title="Movies",Fan 🇷🇺
 http://stream.mcquack.net/420/index.m3u8
 #EXTINF:-1 tvg-id="Avto24.ru" tvg-name="Avto24 🇷🇺" group-title="General",Avto24 🇷🇺
@@ -7,26 +193,20 @@ http://stream.mcquack.net/78/index.m3u8
 http://stream.mcquack.net/161/index.m3u8
 #EXTINF:-1 tvg-id="black.ru" tvg-name=".Black 🇷🇺" group-title="General",.Black 🇷🇺
 http://stream.mcquack.net/263/index.m3u8
-#EXTINF:-1 tvg-id="Channel5.ru" tvg-name="Channel 5 🇺🇸" group-title="General",Channel 5 🇺🇸
-http://stream.mcquack.net/291/index.m3u8
 #EXTINF:-1 tvg-id="LawTV.ru" tvg-name="Law Tv 🇺🇸" group-title="General",Law Tv 🇺🇸
 http://stream.mcquack.net/406/index.m3u8
 #EXTINF:-1 tvg-id="Zvezda.ru" tvg-name="Zvezda 🇷🇺" group-title="General",Zvezda 🇷🇺
 http://51.158.144.33:2021/zvezda/index.m3u8
-#EXTINF:-1 tvg-id="NickJr.ru" tvg-name="Nick Jr. 🇷🇺" group-title="Kids",Nick Jr. 🇷🇺
-http://206.212.244.63/3150/index.m3u8
-#EXTINF:-1 tvg-id="Nicktoons.ru" tvg-name="Nicktoons 🇺🇸" group-title="Kids",Nicktoons 🇺🇸
-http://41.205.93.154/NICKTOONS/index.m3u8
+#EXTINF:-1 tvg-id="FashionLifeStyle.ru" tvg-name="Fashion&Lifestyle 🇷🇺" group-title="General",Fashion&Lifestyle 🇷🇺
+http://stream.mcquack.net/119/index.m3u8
 #EXTINF:-1 tvg-id="Kinoliving.ru" tvg-name="Kinoliving 🇷🇺" group-title="Movies",Kinoliving 🇷🇺
 http://stream.mcquack.net/445/index.m3u8
-#EXTINF:-1 tvg-id="Kinosvidanie.ru" tvg-name="Kinosvidanie 🇷🇺" group-title="Movies",Kinosvidanie 🇷🇺
-http://5.188.159.128:8070/kinosvidanie/index.m3u8
+#EXTINF:-1 tvg-id="Kinopremyera.ru" tvg-name="Kinopremyera 🇷🇺" group-title="Movies",Kinopremyera 🇷🇺
+http://5.188.159.128:8070/KINOPREMIERA/index.m3u8
 #EXTINF:-1 tvg-id="Russkiyroman.ru" tvg-name="Russkiy Roman 🇷🇺" group-title="Movies",Russkiy Roman 🇷🇺
 http://stream.mcquack.net/266/index.m3u8
 #EXTINF:-1 tvg-id="AmediaHit.ru" tvg-name="Amedia Hit 🇷🇺" group-title="Movies",Amedia Hit 🇷🇺
 http://stream.mcquack.net/162/index.m3u8
-#EXTINF:-1 tvg-id="Bolt.ru" tvg-name="Bolt 🇺🇸" group-title="Movies",Bolt 🇺🇸
-http://stream.mcquack.net/73/index.m3u8
 #EXTINF:-1 tvg-id="RussianMusicBox.ru" tvg-name="Russian Musicbox 🇷🇺" group-title="Music",Russian Musicbox 🇷🇺
 http://stream.mcquack.net/319/index.m3u8
 #EXTINF:-1 tvg-id="Mir24.ru" tvg-name="Mir 24 🇷🇺" group-title="General",Mir 24 🇷🇺
@@ -37,3 +217,179 @@ http://177.234.249.135:8888/RT/index.m3u8
 http://stream.mcquack.net/264/index.m3u8
 #EXTINF:-1 tvg-id="Saphire.ru" tvg-name="Saphire 🇷🇺" group-title="General",Saphire 🇷🇺
 http://77.232.131.211/Sapfir/manifest.m3u8
+#EXTINF:-1 tvg-id="KHLPrime.ru" tvg-name="Khl Prime 🇷🇺" group-title="Sports",Khl Prime 🇷🇺
+http://stream.mcquack.net/178/index.m3u8
+#EXTINF:-1 tvg-id="RTS3.sn" tvg-name="Rts 3 🇸🇳" group-title="General",Rts 3 🇸🇳
+http://145.239.5.177/224/index.m3u8
+#EXTINF:-1 tvg-id="AlikhbariaSyria.sy" tvg-name="Alikhbaria Syria 🇺🇸" group-title="General",Alikhbaria Syria 🇺🇸
+http://185.9.2.18/chid_423/index.m3u8
+#EXTINF:-1 tvg-id="Pershyiavtomobilnyi.ua" tvg-name="Pershyi Avtomobilnyi 🇺🇦" group-title="General",Pershyi Avtomobilnyi 🇺🇦
+http://stream.mcquack.net/404/index.m3u8
+#EXTINF:-1 tvg-id="SuspilneKultura.ua" tvg-name="Suspilne. Kultura 🇺🇦" group-title="General",Suspilne. Kultura 🇺🇦
+http://stream.mcquack.net/435/index.m3u8
+#EXTINF:-1 tvg-id="ChemodanTV.ua" tvg-name="Chemodan Tv 🇷🇺" group-title="General",Chemodan Tv 🇷🇺
+http://stream.mcquack.net/399/index.m3u8
+#EXTINF:-1 tvg-id="ICTV2.ua" tvg-name="Ictv2 🇺🇦" group-title="General",Ictv2 🇺🇦
+http://stream.mcquack.net/368/index.m3u8
+#EXTINF:-1 tvg-id="2Plus2.ua" tvg-name="2+2 🇺🇦" group-title="General",2+2 🇺🇦
+http://stream.mcquack.net/173/index.m3u8
+#EXTINF:-1 tvg-id="6sotok.ua" tvg-name="6 Sotok 🇺🇦" group-title="General",6 Sotok 🇺🇦
+http://stream.mcquack.net/405/index.m3u8
+#EXTINF:-1 tvg-id="Inter.ua" tvg-name="Inter 🇺🇦" group-title="General",Inter 🇺🇦
+http://stream.mcquack.net/174/index.m3u8
+#EXTINF:-1 tvg-id="PershyiZahidnyi.ua" tvg-name="Pershyi Zahidnyi 🇺🇦" group-title="General",Pershyi Zahidnyi 🇺🇦
+http://stream.mcquack.net/246/index.m3u8
+#EXTINF:-1 tvg-id="EnterFilm.ua" tvg-name="Enter-Film 🇺🇦" group-title="Movies",Enter-Film 🇺🇦
+http://stream.mcquack.net/322/index.m3u8
+#EXTINF:-1 tvg-id="Kinowood.ua" tvg-name="Kinowood 🇺🇦" group-title="Movies",Kinowood 🇺🇦
+http://stream.mcquack.net/446/index.m3u8
+#EXTINF:-1 tvg-id="NasheLubimoeKinoUkraine.ua" tvg-name="Nashe Lubimoe Kino Ukraine 🇺🇦" group-title="Movies",Nashe Lubimoe Kino Ukraine 🇺🇦
+http://stream.mcquack.net/456/index.m3u8
+#EXTINF:-1 tvg-id="FilmUADrama.ua" tvg-name="Filmuadrama 🇺🇦" group-title="Movies",Filmuadrama 🇺🇦
+http://88.99.215.227/FilmUADrama/index.m3u8
+#EXTINF:-1 tvg-id="InRatingTV.ua" tvg-name="Inrating Tv 🇺🇦" group-title="Music",Inrating Tv 🇺🇦
+http://stream.mcquack.net/147/index.m3u8
+#EXTINF:-1 tvg-id="ArmyTV.ua" tvg-name="Army Tv 🇺🇦" group-title="General",Army Tv 🇺🇦
+http://195.54.52.40/test/index.m3u8
+#EXTINF:-1 tvg-id="MyUkrainaTV.ua" tvg-name="My-Ukraina Tv 🇺🇦" group-title="General",My-Ukraina Tv 🇺🇦
+http://stream.mcquack.net/442/index.m3u8
+#EXTINF:-1 tvg-id="Trofei.ua" tvg-name="Trofei 🇺🇦" group-title="General",Trofei 🇺🇦
+http://stream.mcquack.net/357/index.m3u8
+#EXTINF:-1 tvg-id="Tviyserial.ua" tvg-name="Tviy Serial 🇺🇦" group-title="General",Tviy Serial 🇺🇦
+http://stream.mcquack.net/466/index.m3u8
+#EXTINF:-1 tvg-id="DynamoKyivTV.ua" tvg-name="Dynamo Kyiv Tv 🇷🇺" group-title="Sports",Dynamo Kyiv Tv 🇷🇺
+http://stream.mcquack.net/396/index.m3u8
+#EXTINF:-1 tvg-id="Equalympic.ua" tvg-name="Equalympic 🇺🇦" group-title="Sports",Equalympic 🇺🇦
+http://stream.mcquack.net/485/index.m3u8
+#EXTINF:-1 tvg-id="CourtTV.uk" tvg-name="Court Tv 🇬🇧" group-title="General",Court Tv 🇬🇧
+http://206.212.244.63/4235/index.m3u8
+#EXTINF:-1 tvg-id="Westerns4U.us" tvg-name="Westerns 4U 🇺🇸" group-title="General",Westerns 4U 🇺🇸
+http://181.224.255.210:8001/play/a0rq/index.m3u8
+#EXTINF:-1 tvg-id="Laff.us" tvg-name="Laff 🇺🇸" group-title="General",Laff 🇺🇸
+http://40.160.24.53/LAFF_TV/index.m3u8
+#EXTINF:-1 tvg-id="StarzComedy.us" tvg-name="Starz Comedy 🇺🇸" group-title="General",Starz Comedy 🇺🇸
+http://23.237.104.106:8080/USA_STARZ_COMEDY/index.m3u8
+#EXTINF:-1 tvg-id="Tastemade.us" tvg-name="Tastemade 🇺🇸" group-title="General",Tastemade 🇺🇸
+http://206.212.244.63/153/index.m3u8
+#EXTINF:-1 tvg-id="Ovation.us" tvg-name="Ovation 🇺🇸" group-title="General",Ovation 🇺🇸
+http://40.160.24.55/OVATION/index.m3u8
+#EXTINF:-1 tvg-id="History2LatinAmerica.us" tvg-name="History 2 Latin America 🇺🇸" group-title="General",History 2 Latin America 🇺🇸
+http://181.119.66.28:8081/HISTORY-2/index.m3u8
+#EXTINF:-1 tvg-id="HistoryLatinAmerica.us" tvg-name="History Latin America 🇺🇸" group-title="General",History Latin America 🇺🇸
+http://181.119.66.28:8081/History-HD/index.m3u8
+#EXTINF:-1 tvg-id="LawCrime.us" tvg-name="Law & Crime 🇺🇸" group-title="General",Law & Crime 🇺🇸
+http://206.212.244.63/102/index.m3u8
+#EXTINF:-1 tvg-id="NationalGeographicLatinAmerica.us" tvg-name="National Geographic Latin America 🇺🇸" group-title="General",National Geographic Latin America 🇺🇸
+http://45.162.193.35/NATGEO/index.m3u8
+#EXTINF:-1 tvg-id="PBSKids.us" tvg-name="Pbs Kids 🇺🇸" group-title="Kids",Pbs Kids 🇺🇸
+http://206.212.244.63/669/index.m3u8
+#EXTINF:-1 tvg-id="AELatinAmerica.us" tvg-name="A&E Latin America 🇺🇸" group-title="General",A&E Latin America 🇺🇸
+http://138.186.23.7:8082/AE/index.m3u8
+#EXTINF:-1 tvg-id="Buzzr.us" tvg-name="Buzzr 🇺🇸" group-title="General",Buzzr 🇺🇸
+http://23.237.104.106:8080/USA_BUZZR/index.m3u8
+#EXTINF:-1 tvg-id="Comet.us" tvg-name="Comet 🇺🇸" group-title="General",Comet 🇺🇸
+http://206.212.244.63/46/index.m3u8
+#EXTINF:-1 tvg-id="CoziTV.us" tvg-name="Cozi Tv 🇺🇸" group-title="General",Cozi Tv 🇺🇸
+http://206.212.244.63/49/index.m3u8
+#EXTINF:-1 tvg-id="FXLatinAmerica.us" tvg-name="Fx Latin America 🇺🇸" group-title="General",Fx Latin America 🇺🇸
+http://45.162.193.35/FX/index.m3u8
+#EXTINF:-1 tvg-id="Fuse.us" tvg-name="Fuse 🇺🇸" group-title="General",Fuse 🇺🇸
+http://206.212.244.63/72/index.m3u8
+#EXTINF:-1 tvg-id="GameShowNetwork.us" tvg-name="Game Show Network 🇺🇸" group-title="General",Game Show Network 🇺🇸
+http://206.212.244.63/4237/index.m3u8
+#EXTINF:-1 tvg-id="Grit.us" tvg-name="Grit 🇺🇸" group-title="General",Grit 🇺🇸
+http://206.212.244.63/83/index.m3u8
+#EXTINF:-1 tvg-id="HolaTVLatinAmerica.us" tvg-name="Hola! Tv Latin America 🇺🇸" group-title="General",Hola! Tv Latin America 🇺🇸
+http://177.234.249.178:8888/HOLA-TV/index.m3u8
+#EXTINF:-1 tvg-id="INSP.us" tvg-name="Insp 🇺🇸" group-title="General",Insp 🇺🇸
+http://206.212.244.63/95/index.m3u8
+#EXTINF:-1 tvg-id="JusticeCentralTV.us" tvg-name="Justice Central Tv 🇺🇸" group-title="General",Justice Central Tv 🇺🇸
+http://40.160.24.53/JUSTICE_CENTRAL/index.m3u8
+#EXTINF:-1 tvg-id="MTV2.us" tvg-name="Mtv2 🇺🇸" group-title="General",Mtv2 🇺🇸
+http://206.212.244.63/116/index.m3u8
+#EXTINF:-1 tvg-id="PasionesLatinAmerica.us" tvg-name="Pasiones Latin America 🇺🇸" group-title="General",Pasiones Latin America 🇺🇸
+http://45.224.97.181:9999/Pasiones/index.m3u8
+#EXTINF:-1 tvg-id="PopTV.us" tvg-name="Pop Tv 🇺🇸" group-title="General",Pop Tv 🇺🇸
+http://206.212.244.63/139/index.m3u8
+#EXTINF:-1 tvg-id="DoveChannel.us" tvg-name="Dove Channel 🇺🇸" group-title="General",Dove Channel 🇺🇸
+http://206.212.244.63/6134/index.m3u8
+#EXTINF:-1 tvg-id="HallmarkChannel.us" tvg-name="Hallmark Channel 🇺🇸" group-title="General",Hallmark Channel 🇺🇸
+http://206.212.244.63/84/index.m3u8
+#EXTINF:-1 tvg-id="NBC.us" tvg-name="Nbc 🇺🇸" group-title="General",Nbc 🇺🇸
+http://206.212.244.63/4244/index.m3u8
+#EXTINF:-1 tvg-id="Telemundo.us" tvg-name="Telemundo 🇺🇸" group-title="General",Telemundo 🇺🇸
+http://168.228.44.241:9998/play/a0a9/index.m3u8
+#EXTINF:-1 tvg-id="TelemundoInternacional.us" tvg-name="Telemundo Internacional 🇺🇸" group-title="General",Telemundo Internacional 🇺🇸
+http://45.181.87.106/TELEMUNDOHD/index.m3u8
+#EXTINF:-1 tvg-id="BabyFirst.us" tvg-name="Babyfirst 🇺🇸" group-title="Kids",Babyfirst 🇺🇸
+http://206.212.244.63/639/index.m3u8
+#EXTINF:-1 tvg-id="CleoTV.us" tvg-name="Cleo Tv 🇺🇸" group-title="General",Cleo Tv 🇺🇸
+http://206.212.244.63/38/index.m3u8
+#EXTINF:-1 tvg-id="AMCLatinAmerica.us" tvg-name="Amc Latin America 🇺🇸" group-title="Movies",Amc Latin America 🇺🇸
+http://15.204.246.24:8080/AMCHD/index.m3u8
+#EXTINF:-1 tvg-id="AXNLatinAmerica.us" tvg-name="Axn Latin America 🇺🇸" group-title="Movies",Axn Latin America 🇺🇸
+http://181.119.66.28:8081/AXN/index.m3u8
+#EXTINF:-1 tvg-id="Charge.us" tvg-name="Charge! 🇺🇸" group-title="Movies",Charge! 🇺🇸
+http://206.212.244.63/34/index.m3u8
+#EXTINF:-1 tvg-id="HallmarkFamily.us" tvg-name="Hallmark Family 🇺🇸" group-title="Movies",Hallmark Family 🇺🇸
+http://206.212.244.63/85/index.m3u8
+#EXTINF:-1 tvg-id="IFC.us" tvg-name="Ifc 🇺🇸" group-title="Movies",Ifc 🇺🇸
+http://206.212.244.63/4238/index.m3u8
+#EXTINF:-1 tvg-id="LifetimeMovies.us" tvg-name="Lifetime Movies 🇺🇸" group-title="Movies",Lifetime Movies 🇺🇸
+http://23.237.104.106:8080/USA_LMN/index.m3u8
+#EXTINF:-1 tvg-id="ScaresbyShudder.us" tvg-name="Scares By Shudder 🇺🇸" group-title="Movies",Scares By Shudder 🇺🇸
+http://206.212.244.63/147/index.m3u8
+#EXTINF:-1 tvg-id="StarzCinema.us" tvg-name="Starz Cinema 🇺🇸" group-title="Movies",Starz Cinema 🇺🇸
+http://23.237.104.106:8080/USA_STARZ_CINEMA/index.m3u8
+#EXTINF:-1 tvg-id="GreatAmericanFamily.us" tvg-name="Great American Family 🇺🇸" group-title="Movies",Great American Family 🇺🇸
+http://40.160.24.58/GAC_FAMILY/index.m3u8
+#EXTINF:-1 tvg-id="GreatAmericanFaithLiving.us" tvg-name="Great American Faith & Living 🇺🇸" group-title="Movies",Great American Faith & Living 🇺🇸
+http://206.212.244.63/82/index.m3u8
+#EXTINF:-1 tvg-id="HallmarkMystery.us" tvg-name="Hallmark Mystery 🇺🇸" group-title="Movies",Hallmark Mystery 🇺🇸
+http://206.212.244.63/86/index.m3u8
+#EXTINF:-1 tvg-id="SYFY.us" tvg-name="Syfy 🇺🇸" group-title="Movies",Syfy 🇺🇸
+http://40.160.24.55/SYFY/index.m3u8
+#EXTINF:-1 tvg-id="StarChannelLatinAmerica.us" tvg-name="Star Channel Latin America 🇺🇸" group-title="Movies",Star Channel Latin America 🇺🇸
+http://45.162.193.35/STAR_CHANNEL/index.m3u8
+#EXTINF:-1 tvg-id="USANetwork.us" tvg-name="Usa Network 🇺🇸" group-title="Movies",Usa Network 🇺🇸
+http://206.212.244.63/168/index.m3u8
+#EXTINF:-1 tvg-id="BandamaxUSA.us" tvg-name="Bandamax Usa 🇺🇸" group-title="Music",Bandamax Usa 🇺🇸
+http://177.234.249.135:8888/Bandamax/index.m3u8
+#EXTINF:-1 tvg-id="MTVLive.us" tvg-name="Mtv Live 🇺🇸" group-title="Music",Mtv Live 🇺🇸
+http://23.237.104.106:8080/USA_MTV_LIVE/index.m3u8
+#EXTINF:-1 tvg-id="TeleHitEstadosUnidos.us" tvg-name="Telehit Estados Unidos 🇺🇸" group-title="Music",Telehit Estados Unidos 🇺🇸
+http://177.234.249.135:8888/Telehit/index.m3u8
+#EXTINF:-1 tvg-id="CBSNews247.us" tvg-name="Cbs News 24/7 🇺🇸" group-title="General",Cbs News 24/7 🇺🇸
+http://40.160.24.56/CBS_NEWS/index.m3u8
+#EXTINF:-1 tvg-id="MSNOW.us" tvg-name="Ms Now 🇺🇸" group-title="General",Ms Now 🇺🇸
+http://206.212.244.63/114/index.m3u8
+#EXTINF:-1 tvg-id="NewsNation.us" tvg-name="Newsnation 🇺🇸" group-title="General",Newsnation 🇺🇸
+http://206.212.244.63/712/index.m3u8
+#EXTINF:-1 tvg-id="NewsmaxTV.us" tvg-name="Newsmax Tv 🇺🇸" group-title="General",Newsmax Tv 🇺🇸
+http://206.212.244.63/128/index.m3u8
+#EXTINF:-1 tvg-id="OneAmericaNewsNetwork.us" tvg-name="One America News Network 🇺🇸" group-title="General",One America News Network 🇺🇸
+http://23.237.104.106:8080/USA_OAN/index.m3u8
+#EXTINF:-1 tvg-id="OutsideTV.us" tvg-name="Outside Tv 🇺🇸" group-title="General",Outside Tv 🇺🇸
+http://206.212.244.63/2508/index.m3u8
+#EXTINF:-1 tvg-id="TNTNovelas.us" tvg-name="Tnt Novelas 🇺🇸" group-title="General",Tnt Novelas 🇺🇸
+http://138.186.23.7:8082/TNTNOVELAS/index.m3u8
+#EXTINF:-1 tvg-id="WeTV.us" tvg-name="We Tv 🇺🇸" group-title="General",We Tv 🇺🇸
+http://40.160.24.55/WE_TV/index.m3u8
+#EXTINF:-1 tvg-id="ParamountNetworkLatinAmerica.us" tvg-name="Paramount Network Latin America 🇺🇸" group-title="Movies",Paramount Network Latin America 🇺🇸
+http://138.186.23.7:8082/PARAMOUNT/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports1.us" tvg-name="Fox Sports 1 🇺🇸" group-title="Sports",Fox Sports 1 🇺🇸
+http://85.237.89.160:9590/usa-s/FOX-SPORTS-1/index.m3u8
+#EXTINF:-1 tvg-id="MSG.us" tvg-name="Msg 🇺🇸" group-title="Sports",Msg 🇺🇸
+http://23.237.104.106:8080/USA_MSG/index.m3u8
+#EXTINF:-1 tvg-id="NBCSportsChicago.us" tvg-name="Nbc Sports Chicago 🇺🇸" group-title="Sports",Nbc Sports Chicago 🇺🇸
+http://206.212.244.63/6141/index.m3u8
+#EXTINF:-1 tvg-id="NFLNetwork.us" tvg-name="Nfl Network 🇺🇸" group-title="Sports",Nfl Network 🇺🇸
+http://40.160.24.53/NFL_Network/index.m3u8
+#EXTINF:-1 tvg-id="PokerGo.us" tvg-name="Pokergo 🇺🇸" group-title="Sports",Pokergo 🇺🇸
+http://206.212.244.63/4249/index.m3u8
+#EXTINF:-1 tvg-id="SportsNetNewYork.us" tvg-name="Sportsnet New York 🇺🇸" group-title="Sports",Sportsnet New York 🇺🇸
+http://40.160.24.55/SNY/index.m3u8
+#EXTINF:-1 tvg-id="TennisChannel.us" tvg-name="Tennis Channel 🇺🇸" group-title="Sports",Tennis Channel 🇺🇸
+http://206.212.244.63/6149/index.m3u8
+#EXTINF:-1 tvg-id="WeatherNation.us" tvg-name="Weathernation 🇺🇸" group-title="General",Weathernation 🇺🇸
+http://40.160.24.55/WEATHER_NATION/index.m3u8
